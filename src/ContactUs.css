@@ -1,0 +1,373 @@
+.contact-container {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: relative;
+    /* height: 2000px; */
+    /* background-position: center; */
+    margin-top: 67px;
+    /* background-attachment: fixed;  */
+    color: #000000; 
+    /* object-fit:fill;     */
+  }
+  .background-image{
+    height: 700px;
+  }
+  .content {
+    /* Set the content to be on top of the background image */
+    position: absolute;
+    top: 100px;
+    color: #fff; /* Set the text color to white */
+    text-align: center;
+  }
+
+  .content h1{
+    font-size: 70px;
+  }
+
+  .content p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+
+.search-bar{
+    display: flex;
+    border-radius: 100px;
+    align-items: center;
+    border: 0px solid black;
+    height: 70px  ;
+    background-color: white;
+    justify-content: center;
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 400px;
+}
+.search{
+    width: 30%;
+}
+.submit{
+width: 20%;
+height: 90%;
+margin-right: 5px;
+color: #fff;
+font-size: x-large;
+background-color: #000000;
+border-radius: 90px;
+}
+
+.submit:hover{
+    background-color: azure;
+    color: #000000;
+}
+
+.search-item{
+border: none;
+font-size: larger;
+margin-left: 30px;
+}
+.boxes{
+    overflow-x: visible
+}
+.box{
+    /* position: center; */
+    position: relative;
+    top: -200px;
+    display: inline-block;
+    width: 30%;
+    margin: 80px -150px;
+    margin-left: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: #fff; /* Add this line to set the background color */
+    border: 1px solid #ddd; /* Add this line to set a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+}
+
+.logo{
+    width: 50px;
+    margin-top: 30px ;
+}
+
+.box-text h3{
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.box-text p{
+    color: #848484;
+    font-size: 19px;
+}
+
+.shop-now-btn{
+    width: 45%;
+    height: 20%;
+    margin-left: 120px;
+    color: #fff;
+    font-size: x-large;
+    margin-top: 20px;
+    background-color: #000000;
+    border-radius: 90px;
+}
+.shop-now-btn:hover{
+   background-color: azure;
+   color: #000000;
+}
+
+.heading{
+    margin-top: -150px;
+    text-align: center;
+    font-family:  Arial;
+    font-size: 20px;
+}
+.lowerboxes{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 55px;
+}
+.lowerbox{
+    width: 30%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #f4f4ff; /* Add this line to set the background color */
+    border: 1px ;
+    border-radius: 20px;
+}
+
+
+.box-text1 h3{
+    margin-top: 20px;
+    margin-left: -90px;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: -50px;
+}
+
+.box-text1 p{
+    margin-top: 20px;
+}
+
+.box-text1 li:hover{
+    list-style-type: none; /* Removes the bullet point */
+    color: #ff5b5b;
+}
+
+.box-text li a {
+    list-style-type: none;
+    color: initial; /* Sets initial text color */
+}
+
+.box-text1 li{
+    list-style-type: none;
+    margin-left: -125px;
+}
+
+.logo1{
+    width: 80px;
+    height: auto;
+    margin-top: 50px;
+    margin-right: 270px;
+}
+
+.box-text1 p{
+    margin-left: -60px;
+}
+
+.blank{
+    background-color: #e0e0ff;
+}
+
+.heading2{
+    margin-top: 100px;
+    padding-top: 120px;
+    background-color: #e0e0ff;
+    font-style: 'poppins';
+    font-size: 20px;
+}
+
+.faq-container {
+    width: 90%; /* Set the width of the FAQ box */
+    margin-top: 70px; /* Center the box */
+    margin-left: 50px;
+    margin-bottom: 100px;
+    padding: 20px; /* Add some padding inside the container */
+    border-radius: 40px; /* Adds a slight border radius for rounded corners */
+    background-color: #f9f9f9; /* Light background color for the box */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a light shadow for a subtle 3D effect */
+  }
+  
+  .faq-item {
+    margin-bottom: 15px; /* Space between each FAQ item */
+  }
+  
+  .faq-question {
+    font-weight: 50px; /* Make the question bold */
+    font-family: 'poppins';
+    font-size: 30px;
+    cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+    padding: 30px; /* Add space above and below the question text */
+    border-bottom: 1px solid #ddd; /* Add a thin line under each question */
+    position: relative; /* Allows positioning of the icon relative to this element */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .faq-icon {
+    position: absolute; /* Use absolute positioning for the icon */
+    left: 39rem;
+    top: 50%; /* Vertically center the icon */
+    transform: translateY(-50%); /* Adjust for perfect vertical centering */
+    transition: transform 0.7s ease-in-out, top 0.3s ease-in-out; /* Smooth transition for position and rotation */
+  }
+  
+  .faq-item.open .faq-icon {
+    transform: translateY(0) rotate(180deg); /* Rotate the arrow and move it */
+  }
+  
+  .faq-answer {
+    max-height: 0; /* Collapse the answer by default */
+    overflow: hidden; /* Hide content when collapsed */
+    transition: max-height 0.7s ease; /* Smooth transition for height */
+    background-color: #fff; /* Optional: background for answer section */
+  }
+  
+  .faq-item.open .faq-answer {
+    max-height: 150px; /* Expand the height when open */
+    padding-top: 10px; /* Add padding to the answer when open */
+  }
+  
+  .faq-item.open .faq-question {
+    border-bottom: 1px solid #bbb; /* Thicker border for open question */
+  }
+
+
+  
+.aoq{
+    padding-top: 10px;
+    background-color: #ffffff;
+    width: 100%;
+}
+  .aoq h1{
+    background-color: #f9f9f9;
+    padding-top: 150px;
+  }
+
+  .aoq p{
+    background-color: #ffffff;
+    padding-top: 20px;
+    color: #545151;
+    font-size: 22px;
+  }
+
+  .container {
+    display: flex; /* Use flexbox to arrange sections */
+    background-color: #ffffff;
+    justify-content: space-between; /* Distribute space between sections */
+    width: 80%; /* Set the width of the container */
+    margin: 20px auto; /* Center the container */
+    border: 1px solid #ccc; /* Thin border around the entire container */
+    border-radius: 20px; /* Rounded corners for the container */
+    padding: 20px;
+  }
+  
+  .section {
+    flex: 1; /* Make each section take equal width */
+    background-color: #ffffff;
+    padding: 20px; /* Padding inside each section */
+    text-align: center; /* Center text in each section */
+    border-right: 1px solid #ccc; /* Add vertical border between sections */
+  }
+  
+.aoqimg{
+    height: 100px;
+    width: 100px;
+}
+
+.aoq h1 {
+    font-size: 20px;
+    background-color: #ffffff;
+    margin-top: -130px;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.aoq li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.aoq li:hover{
+    color: #ff5b5b;
+}
+
+.footer{
+    margin-left: -270px;
+    padding-top: 80px;
+}
+
+
+
+.fimg{
+    width: 160px;
+    height: 40px;
+}
+
+.search-container {
+    display: flex; /* Use flexbox to align items in a row */
+    align-items: center; /* Center items vertically */
+    border: 1px solid #000000; /* Border around the search container */
+    margin-left: 280px;
+    margin-top: 20px;
+    border-radius: 0px; /* Rounded corners */
+    padding: 5px; /* Padding inside the container */
+    max-width: 400px; /* Maximum width of the container */
+  }
+  
+  .search-icon {
+    width: 50px; /* Size of the search icon */
+    height: 30px; /* Size of the search icon */
+    margin-right: 10px; /* Space between the icon and input */
+  }
+  
+  .search-input {
+    border: 0px #ff5b5b;
+    height: 20px;
+    border-radius: 0px;
+  }
+  
+  .signup-button {
+    background-color: #000000; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    width: 120px;
+    height: 50px;
+    font-size: 14px;
+    padding: 10px; /* Padding inside the button */
+    margin-left: 20px;
+    cursor: pointer; /* Change cursor to pointer */
+  }
+  
+  .signup-button:hover {
+    background-color: #000000; /* Darker shade on hover */
+  }
+  .footer1{
+    display: flex;
+    padding-top: 60px;
+  }
+
+  .wholefooter{
+    border-top: 2px solid #bbb;
+    display: flex;
+  }
+  

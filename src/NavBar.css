@@ -1,0 +1,28 @@
+/* src/NavBar.css */
+
+nav {
+    background-color: black; /* Set background color to black */
+    padding: 20px; /* Padding for the navbar */
+    position: fixed; /* Keep navbar at the top */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  .navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically centers items */
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar a {
+    color: white; /* Link color set to white */
+    font-size: x-large;
+    text-decoration: none; /* Remove underline from links */
+  }
+  

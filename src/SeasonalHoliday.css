@@ -1,0 +1,773 @@
+.sec1 {
+  position: relative; /* Ensure that positioned elements inside this container are positioned relative to this div */
+  width: 100%; /* Make sure the container takes the full width */
+  height: auto; /* Adjust the height automatically based on content */
+}
+
+.background-image {
+  width: 180%; /* Make the first image take the full width */
+  height: 70%; /* Automatically adjust height */
+  margin-left: -600px;
+}
+
+.background-image2 {
+  position: absolute; /* Position the second image absolutely */
+  top: 0; /* Align the top of the second image with the top of the container */
+  right: 0; /* Align the second image to the right */
+  width: 680px; /* Set an appropriate width for the second image */
+  height: 500px; /* Match the height of the second image with the first */
+  margin-right: 150px;
+  margin-top: 60px;
+}
+
+.stars{
+    width: 8%;
+    margin-top: -1130px;
+    margin-left: 1320px;
+    position: absolute;
+}
+
+.bstslr{
+    position: absolute;
+    width: 17%;
+    margin-top: -1460px;
+    margin-left: 600px;
+}
+
+.sec2{
+    position: absolute;
+    margin-top: -1000px;
+    margin-left: 800px;
+    line-height: 90px;
+}
+
+.sec2 h1{
+    font-family: 'outfit';
+    font-size: 20px;
+}
+
+.sec2 P{
+    font-family: 'outfit';
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.sec2 r{
+    font-family: 'outfit';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sec2 button{
+    width: 13%;
+    height: 60px;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.video-container{
+    position: absolute;
+    border-radius: 15px;
+    margin-top: -400px;
+}
+
+
+.bgimg3{
+    width: 100%;
+    height: 20%;
+    margin-left: 80px;
+    padding-top: 400px;
+}
+
+.sec3{
+    display: flex;
+}
+
+.contnt{
+    font-family: 'outfit';
+    padding-top: 600px;
+    margin-left: 40px;
+    color: black;
+}
+
+.contnt h1{
+    font-size: 40px;
+}
+
+.contnt p{
+    font-weight: 400;
+}
+
+.sec4{
+    margin-bottom: 350px;
+}
+
+.bgimg4{
+    width: 48%;
+    position: absolute;
+    margin-left: 780px;
+}
+
+.content2{
+    font-family: 'outfit';
+    color: black;
+    margin-left: 80px;
+}
+
+.content2 h1{
+    margin-top: 260px;
+    font-size: 40px;
+}
+
+.content2 p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.sec5{
+    background-color: #3a4253;
+    height: 600px;
+
+}
+
+.cont{
+    display: flex;
+    margin-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.bgimg5{
+    width: 25%;
+    padding-top: 10px;
+    margin-left: -60px;
+    position: absolute;
+}
+
+.max{
+    font-family: 'outfit';
+    color: white;
+}
+
+.can{
+    font-family: 'outfit';
+    padding-top: 21px;
+    color: white;
+}
+
+.eng{
+    font-family: 'outfit';
+    color: white;
+}
+
+.water{
+    font-family: 'outfit';
+    padding-top: 21px;
+    color: white;
+}
+
+.maximg{
+    width: 20%;
+}
+
+.canimg{
+    width: 20%;
+}
+
+.engimg{
+    width: 20%;
+}
+
+.waterimg{
+    width: 20%;
+}
+
+.sec6{
+    padding-top: 150px;
+}
+
+.sec6 h1{
+    margin-left: 530px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-family: 'outfit';
+}
+
+.product-showcase-container {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    overflow-y: hidden;
+    position: relative;
+    gap: 20px;
+  }
+
+  .product-image-gallery {
+    display: flex;
+    flex-direction: column;
+    padding-left: 26px;
+    gap: 10px;
+  }
+
+  .main-product-image{
+    border-radius: 15px;
+    height: 650px;
+    position: absolute;
+    margin-left: -350px;
+    width: 600px;
+  }
+
+  .gallery-thumb {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+  }
+  
+  .product-main-section {
+    margin-left: -500px;
+  }
+
+  .product-details{
+    margin-left: 930px;
+    position: absolute;
+    overflow-y: hidden;
+    font-family: 'outfit';
+  }
+
+  .product-details h2{
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  .product-details p{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: green;
+  }
+.price{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+  .dropdown{
+    display: block;
+  }
+
+.bnum{
+    font-size: 20px;
+    font-weight: 700;
+}
+.bcolor{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.engraving-info{
+    margin-top: 30px;
+}
+
+.engraving-info p{
+    margin-top: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.engraving-info li{
+    font-weight: 400;
+}
+
+/* Adjust the width of the select dropdown */
+select {
+    width: 30%; /* Adjust width as per your need */
+    padding: 12px; /* Optional: Add padding for better appearance */
+    border-radius: 20px; /* Optional: Add some border-radius for rounded corners */
+    border: 1px solid #ccc; /* Optional: Border styling */
+    font-size: 1rem; /* Optional: Font size */
+  }
+
+/* Rating Section */
+.rating-section {
+    
+    align-items: center;
+    font-family: 'outfit';
+    margin-bottom: 0px;
+  }
+  
+  .star-rating span {
+    color: #ffcc00; /* Gold color for stars */
+    font-size: 20px; /* Adjust the size of stars */
+    margin-right: 2px; /* Reduce the space between stars */
+  }
+
+  .review-text {
+    font-size: 30px;
+    color: #555;
+    margin-left: 0px; /* Adjust margin to bring text closer to the stars */
+  }
+  
+  .personalization-input{
+    width: 35%;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: none;
+    font-size: 19px;
+    border: 1px solid #555;
+  }
+
+  .add-to-cart-btn{
+    width: 20%;
+    height: 50px;
+    margin-top: -60px;
+    border-radius: 20px;
+    margin-left: 200px;
+  }
+
+  .number-input {
+    display: flex;
+    border:  2px solid;
+    margin-top: 20px;
+    height: 60px;
+    width: 180px;
+    border-radius: 20px;
+    align-items: center;
+  }
+
+  .decrement{
+    border-radius: 20px;
+    border: 0px solid;
+    background-color: white;
+    height: 60px;
+  }
+
+  .increment{
+    border-radius: 20px;
+    border: 0px solid;
+    background-color: white;
+    height: 60px;
+    margin-left: -2px;
+  }
+
+.input-number {
+  width: 60px;
+  height: 40px;
+  color: black;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 5px;
+  border: 0px solid;
+  margin: 0 5px;
+}
+  
+  button {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      padding: 10px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      user-select: none;
+    }
+    
+  
+  /* Parent container styling */
+.parent-image-container {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    width: 700px; /* Adjust as per your image size */
+    height: 200px;
+    padding: 20px;
+    overflow-y: hidden;
+  }
+  
+  /* Parent image styling */
+  .parent-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  /* Child image (overlapping) styling */
+  .child-image {
+    position: absolute;
+    bottom: 20px; /* Adjust the positioning */
+    left: 60px;
+    margin-bottom: 20px;
+    width: 150px; /* Adjust size */
+    height: 150px;
+    border-radius: 10px; /* Optional: for circular image */
+  }
+  
+  /* Text on the parent image */
+  .overlay-text {
+    position: absolute;
+    top: 20px; /* Adjust the position */
+    right: -180px;
+    color: white;
+    font-size: 24px;
+    font-family: 'outfit';
+    font-weight: bold;
+  }
+  
+  .overlay-text h1{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .overlay-text p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+
+.sec7{
+    font-family: 'outfit';
+    background-color: #f8f8f2;
+}
+
+.sec7 h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+/* src/components/ProductGrid.css */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+  }
+  
+  .product-image-wrapper {
+    position: relative;
+  }
+  
+  .product-image {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .discount-badge {
+    position: absolute;
+    top: 10px;
+    width: 40px;
+    right: 50px;
+    background-color: #ff5c5c;
+    color: #fff;
+    padding: 5px;
+    border-radius: 30%;
+    font-size: 14px;
+  }
+  
+  .product-title {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .product-price {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .current-price {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 10px;
+  }
+  
+.review-container {
+    background-color: #f9f9f9;
+    padding: 40px;
+    font-family: 'outfit';
+    text-align: left;
+    border-radius: 8px;
+  }
+  
+  .review-container h2 {
+    font-size: 40px;
+    padding-top: 80px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .review-container p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .review-box {
+    background-color: #ffce39;
+    padding: 20px;
+    border-radius: 16px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin-left: 789px;
+    height: 400px;
+  }
+  
+  .star-rating2{
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  .review-box h3 {
+    font-size: 22px;
+    color: #000;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  
+  .review-text {
+    font-size: 16px;
+    margin-left: 50px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .reviewer-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  .reviewer-image {
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .reviewer-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reviewer-name {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .verified-badge {
+    font-size: 14px;
+    color: #777;
+  }
+  
+:root {
+    --card-bg: #eeeeee;
+    --text-color: #333;
+    font-family: 'outfit';
+    font-size: 20px;
+    --highlight-color: #ff5c5c;
+    --verified-color: #4caf50;
+    --border-radius: 20px;
+  }
+  
+  .review-grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 70px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .review-card2 {
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px var(--card-shadow);
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .review-image2 {
+    width: 100%;
+    border-radius: var(--border-radius);
+    margin-bottom: 15px;
+  }
+  
+  .review-stars2 {
+    color: var(--highlight-color);
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .review-text2 {
+    color: var(--text-color);
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .reviewer-details2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reviewer-name2 {
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 5px;
+  }
+  
+  .verified-badge2 {
+    font-size: 12px;
+    color: var(--verified-color);
+  }
+  
+  :root {
+    --primary-bg-color: #ffffff;
+    --service-bg-color: #f8f9fa;
+    --font-family: 'outfit';
+    --text-color: #333;
+    --button-color: #ff5c5c;
+    --button-text-color: #fff;
+    --border-radius: 8px;
+  }
+  
+  .footer-section3 {
+    padding: 40px 20px;
+    background-color: var(--primary-bg-color);
+  }
+  
+  .service-section3 {
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    background-color: var(--service-bg-color);
+    padding: 30px;
+    width: 70%;
+    margin-left: 180px;
+    border-radius: var(--border-radius);
+    margin-bottom: 30px;
+  }
+  
+  .service-card3 {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .service-icon3 {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .service-card3 h3 {
+    font-size: 18px;
+    color: var(--text-color);
+  
+  }
+  
+  .service-card3 p {
+    font-size: 14px;
+    color: var(--text-color);
+  }
+  
+  /* Newsletter Section */
+  .newsletter-section3 {
+    background-image: url('https://cdn.shopify.com/s/files/1/0726/1221/7115/files/ecom-no-replace-d6GQx2NhVVbg-news-ft.png?v=1716170823'); /* Add the background image */
+    padding: 260px;
+    margin-top: 100px;
+    height: 600%;
+  }
+  
+  .newsletter-section3 h2 {
+    font-size: 50px;
+    color: white;
+    margin-left: -250px;
+  }
+  
+  .newsletter-form3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-input3 {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    margin-left: -600px;
+    outline: none;
+    width: 30%;
+    height: 40px;
+  }
+  
+  .newsletter-button3 {
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px;
+    margin-left: 20px;
+    height: 60px;
+    width: 10%;
+    border-radius: 10px;
+  }
+  
+  .newsletter-button3:hover {
+    background-color: darkred;
+  }
+  
+  .social-media-icons3 i {
+    font-size: 20px;
+    margin: 0 10px;
+    color: var(--primary-bg-color);
+  }
+  
+  .payment-icons3 img {
+    width: 50px;
+    margin: 0 10px;
+  }
+  
+  .footer-links3 a {
+    margin: 0 10px;
+    color: var(--primary-bg-color);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-links3 a:hover {
+    text-decoration: underline;
+  }
+  
